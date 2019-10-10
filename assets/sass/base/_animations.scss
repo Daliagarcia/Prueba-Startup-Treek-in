@@ -1,0 +1,16 @@
+.features__item img{
+animation: opacidad 4s ease-in-out 0s infinite;
+}
+
+@keyframes opacidad{
+  0%{
+    opacity: 0;
+  }
+
+  80%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
