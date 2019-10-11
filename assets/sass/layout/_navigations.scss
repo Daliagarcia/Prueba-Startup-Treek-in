@@ -127,3 +127,9 @@ input:checked ~ .navigation__container{
     position: static;
   }
 }
+
+@media only screen and (max-width: 768px){
+  .navigation__list button{
+    visibility: hidden;
+  }
+}

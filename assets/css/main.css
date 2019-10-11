@@ -9790,6 +9790,11 @@ input:checked ~ .navigation__container {
     position: static;
   }
 }
+@media only screen and (max-width: 768px) {
+  .navigation__list button {
+    visibility: hidden;
+  }
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -10126,6 +10131,90 @@ input:checked ~ .navigation__container {
     font-weight: 400;
   }
 }
+@media (max-width: 768px) {
+  .footer {
+    padding: 1em;
+    font-family: "Raleway", sans-serif;
+    background-color: #221D23;
+    font-size: 12px;
+    color: #FFF;
+  }
+  .footer__container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    color: #FFF;
+  }
+  .footer__container ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 1em;
+    justify-content: space-between;
+  }
+  .footer__container li a {
+    display: inline-flex;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    color: #FFF;
+  }
+}
+@media (max-width: 992px) {
+  .footer {
+    padding: 1em;
+    font-family: "Raleway", sans-serif;
+    background-color: #221D23;
+    font-size: 12px;
+    color: #FFF;
+  }
+  .footer__container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    color: #FFF;
+  }
+  .footer__container ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 1em;
+    justify-content: center;
+  }
+  .footer__container li a {
+    display: inline-flex;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    color: #FFF;
+  }
+  .footer__item2 {
+    text-align: center;
+  }
+}
+@media (min-width: 930px) {
+  .footer {
+    padding: 1em;
+    font-family: "Raleway", sans-serif;
+    background-color: #221D23;
+    font-size: 12px;
+    color: #FFF;
+  }
+  .footer__container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    color: #FFF;
+  }
+  .footer__container ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 1em;
+    justify-content: space-between;
+  }
+  .footer__container li a {
+    display: inline-flex;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    color: #FFF;
+  }
+}
 @media (min-width: 993px) {
   .grid-container {
     display: grid;
@@ -10375,8 +10464,8 @@ input:checked ~ .navigation__container {
   height: 40px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  border: none;
   display: inline;
+  border: none;
 }
 .button--login:focus {
   background-color: #C7C8CC;
